@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./guess.js" defer></script>
+    <title>GUESSING GAAME</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="message-cont">
+            <p id="message">try it broh,hurry up</p>
+        </div>
+
+       <div class="screen">
+        <h1>Guess A number between 1 to 10</h1>
+        <input type="text"  id="userinput" onkeyup="checker()" >
+        <button id="button" onclick="guess()"  >guess</button>
+        
+       </div>
+        <div class="output">
+            <div id="output"></div>
+            <h1 id="guesscounter"></h1>
+   
+        </div>
+
+        <div class="output2">
+            <div id="output2"></div>
+        </div>
+       
+        
+
+    </div>
+
+   
+
+    
+</body>
+</html>
